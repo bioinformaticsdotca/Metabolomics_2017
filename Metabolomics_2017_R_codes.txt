@@ -1,0 +1,222 @@
+## R review code
+# Created by Jeff Xia (2017)
+
+### SLIDE 8 ######################################################################################
+2+5
+weight.a <- 10
+weight.a
+sum(c(2, 6, 8))
+
+
+### SLIDE 9 ######################################################################################
+
+# get the current working directory:
+getwd()
+
+# list all files in current folder
+dir()
+
+print (“hello world!”)
+# exit R
+q()
+
+### SLIDE 10 ######################################################################################
+2+2
+2^8
+exp(-2)
+log(-10)
+1/0
+
+
+### SLIDE 11 ######################################################################################
+# finding more detailed usage on a function
+?apply
+
+### SLIDE 15 ######################################################################################
+## vector types
+a <- 1:100
+class(a)
+
+a <- letters[1:10]
+a
+class(a)
+
+a <- rnorm(10) # built-in function, use “?rnorm” for more details
+a
+class(a)
+
+a <- a > 0
+a
+class(a)
+
+### SLIDE 16 ######################################################################################
+# vector creation
+v1 <- c(1, 2, 3)
+v1
+
+v2 <- 1:3
+v2
+
+v3 <- seq(from=1, to=10, by=2)
+v3
+
+v4 <- rep(1, 4)
+v4
+
+### SLIDE 17 ######################################################################################
+# vector indexing
+v <- c(1, 2, 3)
+v[2]
+v[-2] 
+v[2:3]
+names(v) <- c(“a”, “b”, “c”)
+v[“b”]
+
+### SLIDE 18 ######################################################################################
+# vector operations
+test <- rnorm(5)  # random numbers from normal distribution
+test
+pos.inx <- test > 0
+pos.inx
+test[pos.inx] # using boolean index to get elements
+mean(test)
+sd(test)
+test <- c(test, NA)
+is.na(test) 
+
+### SLIDE 19 ######################################################################################
+
+d1 <- c("M", "F", "M", "F", "F", "F”)
+d2 <- factor(d1)
+d2
+table(d2)
+
+### SLIDE 20 ######################################################################################
+
+# matrix
+mat <- matrix(1:12, nrow=3, byrow=T)
+mat
+mat2 <- matrix(letters[1:8], nrow=2, byrow=F)
+mat2
+dim(mat2) # size of the matrix
+
+### SLIDE 21 ######################################################################################
+
+mat
+mat[2,3]  # single value
+mat[2,]   # row selection
+mat[,3]   # column seleciton
+
+### SLIDE 22 ######################################################################################
+
+x <- list(name="Jeff", height=180, language=c("R", "Java", "Perl”))  
+x
+
+### SLIDE 23 ######################################################################################
+x$name
+a <- x[1] # [ return a list
+a
+class(a)
+b <- x[[1]]  # [[ return a vector
+b
+class(b)
+
+### SLIDE 24 ######################################################################################
+## data.frame
+df <-data.frame(
+   ID = c(“Mike”, “Tom”, “Jon”, “Mia”),     
+   age=c(12,13,12, 14), 
+   score=c(80, 85, 88, 95) );
+df
+df$age
+df[2,3]
+
+### SLIDE 25 ######################################################################################
+cow.dat <- read.csv("http://www.metaboanalyst.ca/resources/data/cow_diet.csv", header=T, row.names=1, check.names=F, as.is=T)
+class(cow.dat)
+cow.dat[1:3, 1:4] 
+
+### SLIDE 28 ######################################################################################
+##box plot
+dim(cow.dat)# get the row and column numbers of the data 
+boxplot(cow.dat[,2:6])
+boxplot(log(cow.dat[,2:6]), las=2, horizontal=T, col=2:6)
+
+### SLIDE 29 ######################################################################################
+# Q1
+boxplot(log(cow.dat[,2:6]), las=2, horizontal=T, col=2:6)
+log(0)
+
+### SLIDE 30 ######################################################################################
+# make a copy of the original data, exclude group labels (1st col)
+conc.dat <- cow.dat[,-1]
+pos.inx <- conc.dat > 0 
+min(conc.dat[pos.inx])
+# replace zero/negative with 1/5 of minimal concentration
+conc.dat[!pos.inx] <- 1.6/5;
+
+### SLIDE 31 ######################################################################################
+# convert all data into a numerical vector
+concs.all <- as.numeric(as.matrix(conc.dat));
+dim(concs.all)
+hist(concs.all)
+hist(concs.all, xlab="Concentrations”, main=“”)
+hist(log(concs.all), xlab="Concentrations", col="blue", breaks=30, main=””)
+
+### SLIDE 33 ######################################################################################
+norm.inx <- concs.all > 1.5 & concs.all < 8.5
+norm.dat <- concs.all[norm.inx];
+qqnorm(norm.dat)
+qqline(norm.dat); 
+
+### SLIDE 34 ######################################################################################
+plot(cow.dat[,4:5])
+plot(cow.dat[,4:5], type='n')
+grid()
+points(cow.dat[,4:5], pch=19, col=’darkblue’)
+
+### SLIDE 36 #############################################################
+cor(cow.dat[,4], cow.dat[,5])
+cor.test(cow.dat[,4], cow.dat[,5])
+
+### SLIDE 38 ######################################################################################
+# built-in functions
+sum(c(1,2,3))
+mean(c(1,2,3,4,5))
+
+# get average concentraion of each compound
+apply(conc.dat, 2, mean) 
+# get total concentration values of each sample
+apply(conc.dat, 1, sum)
+
+### SLIDE 39 ######################################################################################
+# R Function: Replace zero and negative values with 1/5 of min positive values
+# input: a numerical matrix containing zero or negative values 
+# output: matrix with all positive values
+ReplaceNonpositives <- function(data) {
+	pos.inx <- data > 0; 
+	min.val <- min(data[pos.inx]);
+	data[!pos.inx] <- min.val/5;
+	return(data);
+}
+
+### SLIDE 40 ######################################################################################
+# use R function from a R script
+source(“ReplaceNonpositives.R”)
+conc.dat2 <- ReplaceNonpositives(conc.dat);
+
+### SLIDE 42 ######################################################################################
+## Packages
+## install.packages(”PackageName”)
+install.packages("ggplot2")
+library(ggplot2)
+
+source("http://bioconductor.org/biocLite.R")
+biocLite("xcms")
+biocLite("multtest")
+
+##End ######################################################################################
+
+
+
+
