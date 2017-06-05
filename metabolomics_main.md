@@ -23,6 +23,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 *<font color="#827e9c">Jeff Xia</font>*  
 
 [R Review Session](https://bioinformatics.ca/metab-2017-rreview)  
+[Code for Session](https://raw.githubusercontent.com/bioinformaticsdotca/Metabolomics_2017/master/Metabolomics_2017_R_codes.txt)  
 
 # Day 1 <a id="day1"></a>
 
