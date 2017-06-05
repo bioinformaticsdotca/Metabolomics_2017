@@ -65,7 +65,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
   
   Student #11-20 - Begin with GC-MS and <a href="http://gcms.wishartlab.com/">GCMS</a>.
   
-  Student #21-34 - Begin with LC-MS and <a href="https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage">XCMS Online</a>. **note: seems to be working now** 
+  Student #21-34 - Begin with LC-MS and XCMS in R</a>. 
   
   
 #### Data Set and Results Files:
@@ -74,8 +74,8 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 ##### NMR:
 
 <ul>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_NMR_Data.zip">CBW_NRM_Data.zip</a> </li>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_NMR_result.zip">CBW_NRM_result.zip</a> </li>
+<li> <a href="https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_Data.zip">CBW_NRM_Data.zip</a> </li>
+<li> <a href="https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_result.zip">CBW_NRM_result.zip</a> </li>
 </ul>
   
 ##### GC-MS:
