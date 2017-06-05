@@ -18,30 +18,33 @@ Pre-readings, pre-work, and laptop setup instructions can be found [here](https:
 If you have questions or comments, visit the workshop [Q&A forum](https://noteapp.com/Metab2017).
 
 ***
+# Day 0  
+
+*<font color="#827e9c">Jeff Xia</font>*  
+
+[R Review Session](https://bioinformatics.ca/metab-2017-rreview)  
 
 # Day 1 <a id="day1"></a>
 
 ##  Welcome
 
   *<font color="#827e9c">Ann Meyer</font>* 
-<br>
+
+[Lecture](https://bioinformatics.ca/metab-2017-mod0)
 
 ##  Module 1: Introduction to Metabolomics 
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/epigenomics-module-1-2016)
+  [Lecture](https://bioinformatics.ca/metab-2017-mod1)  
 
-  [Lab practical](http://bioinformatics-ca.github.io/epigenomic_data_analysis_module1_lab_2016/)
-  
-  
 ##  Module 2: Metabolite Identification and Annotation 
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/epigenomics-module-2-2016)
+  [Lecture](https://bioinformatics.ca/metab-2017-mod2)  
   
-  [Lab practical](http://bioinformatics-ca.github.io/epigenomic_data_analysis_module2_lab_2016/)  
+  [Lab practical](https://bioinformatics.ca/metab-2017-mod2-lab)   
   
   #### Break-out Groups:
   
@@ -135,6 +138,8 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">David Wishart</font>*  
 
+[Lecture](https://bioinformatics.ca/metab-2017-mod3)  
+
 #### Links:
   
  * [HMDB](http://hmdb.ca/) 
@@ -163,7 +168,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
   *<font color="#827e9c">Jeff Xia</font>*
   
-  [Lecture](https://bioinformatics.ca/epigenomics-module-3-2016)
+  [Lecture](https://bioinformatics.ca/metab-2017-mod4)
   
   [Lab practical](http://bioinformatics-ca.github.io/epigenomic_data_analysis_module3_lab_2016/)
 
@@ -172,9 +177,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/epigenomics-module-4-2016)
+  [Lecture](https://bioinformatics.ca/metab-2017-mod5)
   
-  [Lab practical](http://bioinformatics-ca.github.io/epigenomic_data_analysis_module4_lab_2016/)  
+  [Lab practical](https://bioinformatics.ca/metab-2017-mod5-lab)  
   
     
 #### Data Input:
@@ -196,9 +201,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/epigenomics-module-4-2016)
+  [Lecture](https://bioinformatics.ca/metab-2017-mod6)
   
-  [Lab practical](http://bioinformatics-ca.github.io/epigenomic_data_analysis_module4_lab_2016/)
+
 
 
 
