@@ -50,7 +50,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
   [Instructions for lab](https://bioinformaticsdotca.github.io/metabolomics_2017_mod2lab)
   
  
-1. NMR and <a href="http://bayesil.ca">Bayesil</a>.  
+1. NMR and <a href="http://tmic.bayesil.ca">Bayesil</a>.  
     
 2. GC-MS and <a href="http://gcms.wishartlab.com/">GCMS</a>.  
   
