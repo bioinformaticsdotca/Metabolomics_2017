@@ -67,12 +67,13 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
   
 ##### GC-MS:
 
-[Excel file](https://drive.google.com/open?id=0B8AGit-0Ovvcd0FJZHNiSndQTk0)  
-
 <ul>
 <li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul0914_mzXML.zip">Example_Jul0914_mxXML.zip</a> </li>
 <li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul1114_mzXML.zip">Example_Jul1114_mzXML.zip</a> </li>
 </ul>
+
+[Results file](https://drive.google.com/open?id=0B8AGit-0Ovvcd0FJZHNiSndQTk0)    
+
 
 ##### LC-MS:
 
