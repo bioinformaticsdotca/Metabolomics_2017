@@ -47,26 +47,12 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
   
   [Lab practical](https://bioinformatics.ca/metab-2017-mod2-lab)   
   
-  #### Break-out Groups:
+ 
+1. NMR and <a href="http://tmic.bayesil.ca">Bayesil</a>.  
+    
+2. GC-MS and <a href="http://gcms.wishartlab.com/">GCMS</a>.  
   
-  Begin with your assigned data set and then move through to the next data set when done.
-  
-  Student #01-10 - Begin with NMR and <a href="http://tmic.bayesil.ca">Bayesil</a>.
-  
-  
-##### Sub-groups for NMR
-  
-  Students | Data Set
-  -------- | --------
-  1-2 | #1
-  3-4 | #2
-  5-6 | #3
-  7-8 | #4
-  9-10 | #5
-  
-  Student #11-20 - Begin with GC-MS and <a href="http://gcms.wishartlab.com/">GCMS</a>.
-  
-  Student #21-34 - Begin with LC-MS and XCMS in R</a>. 
+3. LC-MS and XCMS in R</a>.  If R doesn't work, try [XCMS online](https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage).   
   
   
 #### Data Set and Results Files:
@@ -88,30 +74,20 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 </ul>
 
 ##### LC-MS:
+
+Metadata
+
+Raw datasets (these are raw.zip)
+
+Converted datasets (mzxml.zip)
+
+XCMS using R (results)
+
+XCMS online (results)
+
+1. normalized
+2. unnormalized
   
-  Small test datasets:
-  
-  Description: a subset of 12 samples from the study <a href="http://www.bioconductor.org/packages/release/data/experiment/html/faahKO.html">Assignment of Endogenous Substrates to Enzymes by Global Metabolite Profiling</a>.
-  
-  Group WT: wild type; Group KO: knock out.  Platform: HPLC Single Quad.
-  
-<ul>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/WT.zip">WT.zip</a> </li>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/KO.zip">KO.zip</a> </li>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/FaahKO_results.zip">CBW_FaahKO_results.zip</a> </li>
-</ul>
-  
-  Large test datasets (warning: may take ~2 hours to upload this dataset to the XCMS Online server!):
-  
-  Description: a subset of 38 samples from the study <a href="http://www.ebi.ac.uk/metabolights/MTBLS146">Pregnancy-Induced Metabolic Phenotype Variations in Maternal Plasma</a>.
-  
-  Group A: 13-16 weeks; Group B: 9-12 weeks.  Platform: HPLC Orbitrap
-  
-<ul>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/GroupA.zip">GroupA.zip</a> </li>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/GroupB.zip">GroupB.zip</a> </li>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/XCMS_results.zip">CBW_XCMS_results.zip</a> </li>
-</ul>
   
   
 #### Links:
@@ -159,8 +135,6 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
  * [KEGG](http://www.genome.jp/kegg/) 
  * [Reactome](http://www.reactome.org/) 
  * [BioCyc](http://biocyc.org/) 
-
-## Integrated Assignment
 
 
 # Day 2 <a id="day2"></a>
