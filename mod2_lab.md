@@ -20,11 +20,11 @@ The sample data is from a study comparing healthy controls to endometrial cancer
 
 ### General Instructions
 
-We will be using Bayesil for analysis of the NMR data.  The NMR data files are available [here]().  The .zip folder contains 5 data sets.  Upload one of the datesets into Bayesil and run the server.  Save the results as an Excel file.  Examine the results by eye to find interesting differences.  Use HMDB to learn about the interesting metabolites.
+We will be using [Bayesil](http://bayesil.ca) for analysis of the NMR data.  The NMR data files are available [here](https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_Data.zip).  The .zip folder contains 5 data sets.  Upload one of the datesets into Bayesil and run the server.  Save the results as an Excel file.  Examine the results by eye to find interesting differences.  Use HMDB to learn about the interesting metabolites.
 
 ### Bayesil
 
-Bayesil is a web-based tool for automated NMR spectral profiling that is very accurate (95%) and which uses probabilistic graphical models (PGM). It fits shift and peak intensity similar to the way humans perform fitting and pattern finding.  Bayesil requires priop knowledge of probable biofluid composition.  It has fully automated phasing, referencing, water removal, baseline correction, identification, and quantification.
+[Bayesil](http://bayesil.ca) is a web-based tool for automated NMR spectral profiling that is very accurate (95%) and which uses probabilistic graphical models (PGM). It fits shift and peak intensity similar to the way humans perform fitting and pattern finding.  Bayesil requires priop knowledge of probable biofluid composition.  It has fully automated phasing, referencing, water removal, baseline correction, identification, and quantification.
 
 <img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/bayesil1.png?raw=true" alt="img" width="750" /> 
 
@@ -57,11 +57,11 @@ The sample data is from a study comparing 20 individuals with Eosinophilic Esoph
 
 ### General Instructions
 
-We will be using the GC-AutoFit website for analysis of our data.  The data 2 data files can be found [here]() and [here](). Upload the files to GC-AutoFit adn run the server.  Save the results as an Excel file.  Examine the results by eye to find interesting differences.  Use HMDB to learn about the interesting metabolites.
+We will be using the [GC-AutoFit website](http://gcms.wishartlab.com/) for analysis of our data.  The data 2 data files can be found [here](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul0914_mzXML.zip) and [here](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul1114_mzXML.zip). Upload the files to GC-AutoFit adn run the server.  Save the results as an Excel file.  Examine the results by eye to find interesting differences.  Use HMDB to learn about the interesting metabolites.
 
 ### GC-AutoFit (Automated GC-MS)  
 
-GC-AutoFit requires 3 spectra (sample, blank, and alkane standard).  It performs auto-alignment, peak ID, peak integration, and concentration calculation.  It accepts NetCDF and mzXML files.  It takes 60 seconds per spectrum with 40-115 compounds ID'd at 96% accuracy.  It is optimized for blood, urine, saliva, and cerbral spinal fluid.  It still requires careful sample preparation and derivatization.
+[GC-AutoFit website](http://gcms.wishartlab.com/)t requires 3 spectra (sample, blank, and alkane standard).  It performs auto-alignment, peak ID, peak integration, and concentration calculation.  It accepts NetCDF and mzXML files.  It takes 60 seconds per spectrum with 40-115 compounds ID'd at 96% accuracy.  It is optimized for blood, urine, saliva, and cerbral spinal fluid.  It still requires careful sample preparation and derivatization.
 
 <img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc1.png?raw=true" alt="img" width="750" /> 
 
@@ -126,7 +126,28 @@ You will need R with the XCMS packages installed.  You can optionally have Prote
 
 ### Example Data
 
-This dataset was acquired using RP-HPLC-MS (Orbitrap) in positive ionization mode (m/z range 90-800 over 25min). The 30 samples are a subset of a larger study, and include urine samples from people with chronic kidney disease (CKD) stage 3b to stage 5, and controls (a few have CKD stage 2). The [Metadata file]() has more information.
+This dataset was acquired using RP-HPLC-MS (Orbitrap) in positive ionization mode (m/z range 90-800 over 25min). The 30 samples are a subset of a larger study, and include urine samples from people with chronic kidney disease (CKD) stage 3b to stage 5, and controls (a few have CKD stage 2). The [Metadata](https://drive.google.com/open?id=0B8AGit-0OvvcY3NKUGtKR1I2dlE) has more information.
+
+*Raw datasets  (raw.zip files)*  
+
+[CKD raw](https://drive.google.com/open?id=0B8AGit-0OvvcWWxkS2tZZ283QzQ)  
+[Control raw](https://drive.google.com/open?id=0B8AGit-0OvvcMzdzQUwtQ3NhRXM)  
+
+*Converted datasets (mzxml.zip files)*  
+
+[CDK mzxml](https://drive.google.com/open?id=0B8AGit-0OvvcM3dpTUxXM2lVams)  
+[Control mzxml](https://drive.google.com/open?id=0B8AGit-0OvvcTlp6WE04RC1zY0k)  
+
+*XCMS using R (results files)*    
+
+[Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcNGp4Z0diRmxYSlE)  
+[Peak Table](https://drive.google.com/open?id=0B8AGit-0OvvcVnJwbkI3STQzUlk)  
+
+*XCMS online (results files)*  
+
+[Cleaned Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
+[Normalized Results](https://drive.google.com/open?id=0B8AGit-0OvvcNlRNWWhYYkJOQzg)  
+[Unnormalized Results](https://drive.google.com/open?id=0B8AGit-0OvvcMWJkbUg0a25kamc)
 
 ### XCMS Installation
 
