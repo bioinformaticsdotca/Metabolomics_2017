@@ -96,9 +96,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *XCMS online (results files)*  
 
-[Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
-[Normalized](https://drive.google.com/open?id=0B8AGit-0OvvcNlRNWWhYYkJOQzg)  
-[Unnormalized](https://drive.google.com/open?id=0B8AGit-0OvvcMWJkbUg0a25kamc)  
+[Cleaned Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
+[Normalized Results](https://drive.google.com/open?id=0B8AGit-0OvvcNlRNWWhYYkJOQzg)  
+[Unnormalized Results](https://drive.google.com/open?id=0B8AGit-0OvvcMWJkbUg0a25kamc)  
   
   
   
