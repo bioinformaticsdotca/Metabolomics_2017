@@ -26,6 +26,8 @@ We will be using Bayesil for analysis of the NMR data.  The NMR data files are a
 
 Bayesil is a web-based tool for automated NMR spectral profiling that is very accurate (95%) and which uses probabilistic graphical models (PGM). It fits shift and peak intensity similar to the way humans perform fitting and pattern finding.  Bayesil requires priop knowledge of probable biofluid composition.  It has fully automated phasing, referencing, water removal, baseline correction, identification, and quantification.
 
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/bayesil1.png?raw=true" alt="img" width="750" /> 
+
 #### Bayesil Example Settings
 
 | | |  
@@ -39,7 +41,13 @@ Bayesil is a web-based tool for automated NMR spectral profiling that is very ac
 
 #### Bayesil Batch Results
 
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/bayesil2.png?raw=true" alt="img" width="750" /> 
+
+
 #### Bayesil Spectrum Results
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/bayesil3.png?raw=true" alt="img" width="750" /> 
+
 
 ## GC-MS
 
@@ -55,6 +63,9 @@ We will be using the GC-AutoFit website for analysis of our data.  The data 2 da
 
 GC-AutoFit requires 3 spectra (sample, blank, and alkane standard).  It performs auto-alignment, peak ID, peak integration, and concentration calculation.  It accepts NetCDF and mzXML files.  It takes 60 seconds per spectrum with 40-115 compounds ID'd at 96% accuracy.  It is optimized for blood, urine, saliva, and cerbral spinal fluid.  It still requires careful sample preparation and derivatization.
 
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc1.png?raw=true" alt="img" width="750" /> 
+
+
 ### Preparing GC-MS Spectral Files
 
 3 types of input files:  
@@ -68,7 +79,13 @@ Your files might require format conversion.  Files are expected to be CDF or mzX
 
 A. Individual files
 
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc2.png?raw=true" alt="img" width="750" /> 
+
+
 B. .zip files
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc3.png?raw=true" alt="img" width="750" /> 
+
 
 ### Select Sample Type and Library
 
@@ -76,15 +93,34 @@ You can either select an internal library (serum, urine/organic acids, saliva, e
 
 Set an internal standard for quantification:
 
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc4.png?raw=true" alt="img" width="750" /> 
+
+or
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc5.png?raw=true" alt="img" width="750" /> 
+
+
 ### Check Alkane Standard and Each Sample Spectrum
 
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc6.png?raw=true" alt="img" width="750" /> 
+
+
 ### Profiling and Quantification
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc7.png?raw=true" alt="img" width="750" /> 
+
 
 ### Final Results
 
 Results are reported as a table (csv format) for each sample and merged concentrations for all samples.  
 
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/gc8.png?raw=true" alt="img" width="750" /> 
+
+
 ## LC-MS
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/xcms1.png?raw=true" alt="img" width="750" /> 
+
 
 You will need R with the XCMS packages installed.  You can optionally have ProteoWizard installed.  The data files are provided as raw files or mzXML converted files.
 
@@ -138,7 +174,12 @@ XCMS online file compatibility:
 * Agilent .d (.D need to be exported from chemstation as .AIA)  
 * Bruker .d, YEP, BAF, FID  
 * Thermo .raw  
-* Waters. raw  
+* Waters. raw 
+
+ProteoWizard "MSConvert" is a free file conversion tool:
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/xcms2.png?raw=true" alt="img" width="750" /> 
+
 
 Put all .mzXML files in a folder named "DataSet" under your current working directory.  Place files from each experimental class under a separate sub-folder. 
 
@@ -154,6 +195,9 @@ mzxmlfiles
 ```
 
 #### Peak Detection (step 2)
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/xcms3.png?raw=true" alt="img" width="750" /> 
+
 
 XCMS parameters depend on the type of LC-MS instrument, method, ionization mode, performance and more. requires further learning and experimenting.
 
@@ -174,8 +218,6 @@ snthresh = x: minimum signal-to-noise ratio;
 prefilter = c(how many peaks, with peak intensity);   
 integrate= 1 or 2 (2 more accurate but suffers from more noise);   
 mzdiff = x: in coeluting peaks, what is the minimum difference in m/z to be considered different peaks (instrument dependant).  
-
-#### Retention Time Correction (step 3)
 
 #### Peak Alignment adn Retention Time Correction (step 3.1 - 3.3)  
 
@@ -200,6 +242,9 @@ minsamp= #same, but total number of samples;
 mzwid= # deviation in m/z between samples, allowed in one grouped peak.  
 
 ##### Retention Time Deviation
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/xcms4.png?raw=true" alt="img" width="750" /> 
+
 
 * If there are less than 20 samples, it is possible to visually identify the chromatographic outlier. It can then be replaced, or its original chromatogram fixed (decision depends on reasons – technical; biological; requires statistical considerations).  
 * In XCMS package it is possible to choose the sample used for alignment (in XCMS online it is the sample with the most features)  
@@ -256,6 +301,13 @@ The general format required by MetaboAnalyst and most other statistical tools is
 > write.csv(dat2, file= "PeakTable.csv")
 ```
 
+#### Peak Area Table
+
+Peaks are identified by "m/z retention time".  The file can be directly uploaded to MetaboAnalyst but further file manipulations are recommended prior to statistical analysis.
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/xcms5.png?raw=true" alt="img" width="750" /> 
+
+
 #### Visualizing Peaks (step 6)
 
 When significant peaks are identified, it is critical to visualize these peaks to assess quality.  
@@ -271,6 +323,9 @@ eiccor <- getEIC(xset3, groupidx = groupidx1)
 # plot the EIC for the first feature in the selected range:
 plot (eiccor, xset3, groupidx = 1)
 ```
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/xcms6.png?raw=true" alt="img" width="750" /> 
+
 
 
 
