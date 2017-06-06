@@ -253,7 +253,7 @@ xset1 <- group (xset)
 # retention time correction (step 3.2) using parameters set 2
 xset2 <- retcor (xset1, method="obiwarp", plottype="deviation") 
 # re-alignment (step 3.3) using parameters set 3
-# > xset2 <- group (xset2, bw=15, minfrac=0.5, mzwid=0.015, minsamp=8)
+# xset2 <- group (xset2, bw=15, minfrac=0.5, mzwid=0.015, minsamp=8)
 ```
 
 “retcor” parameter set 2: method = #algorithm for rt correction; plottype= # image of the procedure.  
@@ -280,7 +280,7 @@ mzwid= # deviation in m/z between samples, allowed in one grouped peak.
 
 ```r
 # fill in missing peak data (step 4)
-> xset3 <- fillPeaks (xset2)
+xset3 <- fillPeaks (xset2)
 ```
 
 Some warnings may show up when the expected peak (as indicated by many other files) are beyond the "end" of the file. There is no raw data available for fillPeaks().  These warnings can be ignored. 
@@ -312,14 +312,14 @@ The general format required by MetaboAnalyst and most other statistical tools is
 * Experimental class labels;     
 
 ```r
-> dat <- groupval(xset3, "medret", "into")  # get peak intensity (area) matrix 
+dat <- groupval(xset3, "medret", "into")  # get peak intensity (area) matrix 
 # add class labels:
-> dat2 <- rbind(class= as.character(phenoData(xset3)$class), dat) 
+dat2 <- rbind(class= as.character(phenoData(xset3)$class), dat) 
 # create unique feature name and retention time in minutes.
-> rownames(dat2) <- c("group", paste(round(groups(xset3)[,"mzmed"], 3), 
+rownames(dat2) <- c("group", paste(round(groups(xset3)[,"mzmed"], 3), 
 + round(groups(xset3)[,"rtmed"]/60, 1), sep="/"))
 # save the data to CSV file in the WD:
-> write.csv(dat2, file= "PeakTable.csv")
+write.csv(dat2, file= "PeakTable.csv")
 ```
 
 #### Peak Area Table
