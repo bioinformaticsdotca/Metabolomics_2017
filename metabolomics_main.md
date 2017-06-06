@@ -48,11 +48,11 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
   [Lab practical](https://bioinformatics.ca/metab-2017-mod2-lab)   
   
  
-1. NMR and <a href="http://tmic.bayesil.ca">Bayesil</a>.  
+1. NMR and <a href="http://bayesil.ca">Bayesil</a>.  
     
 2. GC-MS and <a href="http://gcms.wishartlab.com/">GCMS</a>.  
   
-3. LC-MS and XCMS in R</a>.  If R doesn't work, try [XCMS online](https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage).   
+3. LC-MS and XCMS in R.  If R doesn't work, try [XCMS online](https://xcmsonline.scripps.edu/landing_page.php?pgcontent=mainPage).   
   
   
 #### Data Set and Results Files:
@@ -67,26 +67,37 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
   
 ##### GC-MS:
 
+[Excel file](https://drive.google.com/open?id=0B8AGit-0Ovvcd0FJZHNiSndQTk0)  
+
 <ul>
 <li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul0914_mzXML.zip">Example_Jul0914_mxXML.zip</a> </li>
 <li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul1114_mzXML.zip">Example_Jul1114_mzXML.zip</a> </li>
-<li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_GCMS_result.zip">CBW_GCMS_result.zip</a> </li>
 </ul>
 
 ##### LC-MS:
 
-Metadata
+[Metadata](https://drive.google.com/open?id=0B8AGit-0OvvcY3NKUGtKR1I2dlE)  
 
-Raw datasets (these are raw.zip)
+*Raw datasets  (raw.zip files)*  
 
-Converted datasets (mzxml.zip)
+[CKD raw](https://drive.google.com/open?id=0B8AGit-0OvvcWWxkS2tZZ283QzQ)  
+[Control raw](https://drive.google.com/open?id=0B8AGit-0OvvcMzdzQUwtQ3NhRXM)  
 
-XCMS using R (results)
+*Converted datasets (mzxml.zip files)*  
 
-XCMS online (results)
+[CDK mzxml](https://drive.google.com/open?id=0B8AGit-0OvvcM3dpTUxXM2lVams)  
+[Control mzxml](https://drive.google.com/open?id=0B8AGit-0OvvcTlp6WE04RC1zY0k)  
 
-1. normalized
-2. unnormalized
+*XCMS using R (results files)*    
+
+[Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcNGp4Z0diRmxYSlE)  
+[Peak Table](https://drive.google.com/open?id=0B8AGit-0OvvcVnJwbkI3STQzUlk)  
+
+*XCMS online (results files)*  
+
+[Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
+[Normalized](https://drive.google.com/open?id=0B8AGit-0OvvcNlRNWWhYYkJOQzg)  
+[Unnormalized](https://drive.google.com/open?id=0B8AGit-0OvvcMWJkbUg0a25kamc)  
   
   
   
