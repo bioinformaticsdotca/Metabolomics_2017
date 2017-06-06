@@ -47,6 +47,8 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
   
   [Lab practical](https://bioinformatics.ca/metab-2017-mod2-lab)   
   
+  [Instructions for lab](https://bioinformaticsdotca.github.io/metabolomics_2017_mod2lab)
+  
  
 1. NMR and <a href="http://bayesil.ca">Bayesil</a>.  
     
