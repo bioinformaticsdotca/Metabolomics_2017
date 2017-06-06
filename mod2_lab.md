@@ -20,11 +20,11 @@ The sample data is from a study comparing healthy controls to endometrial cancer
 
 ### General Instructions
 
-We will be using [Bayesil](http://bayesil.ca) for analysis of the NMR data.  The NMR data files are available [here](https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_Data.zip).  The .zip folder contains 5 data sets.  Upload one of the datesets into Bayesil and run the server.  Save the results as an Excel file.  Examine the results by eye to find interesting differences.  Use HMDB to learn about the interesting metabolites.
+We will be using [Bayesil](http://tmic.bayesil.ca) for analysis of the NMR data.  The NMR data files are available [here](https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_Data.zip).  The .zip folder contains 5 data sets.  Upload one of the datesets into Bayesil and run the server.  Save the results as an Excel file.  Examine the results by eye to find interesting differences.  Use HMDB to learn about the interesting metabolites.
 
 ### Bayesil
 
-[Bayesil](http://bayesil.ca) is a web-based tool for automated NMR spectral profiling that is very accurate (95%) and which uses probabilistic graphical models (PGM). It fits shift and peak intensity similar to the way humans perform fitting and pattern finding.  Bayesil requires priop knowledge of probable biofluid composition.  It has fully automated phasing, referencing, water removal, baseline correction, identification, and quantification.
+[Bayesil](http://tmic.bayesil.ca) is a web-based tool for automated NMR spectral profiling that is very accurate (95%) and which uses probabilistic graphical models (PGM). It fits shift and peak intensity similar to the way humans perform fitting and pattern finding.  Bayesil requires priop knowledge of probable biofluid composition.  It has fully automated phasing, referencing, water removal, baseline correction, identification, and quantification.
 
 <img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/mod2_pics/bayesil1.png?raw=true" alt="img" width="750" /> 
 
