@@ -74,7 +74,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 <li> <a href="https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul1114_mzXML.zip">Example_Jul1114_mzXML.zip</a> </li>
 </ul>
 
-[Results file](https://drive.google.com/open?id=0B8AGit-0Ovvcd0FJZHNiSndQTk0)    
+* [Results file](https://drive.google.com/open?id=0B8AGit-0Ovvcd0FJZHNiSndQTk0)    
 
 
 ##### LC-MS:
@@ -180,10 +180,14 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 * All measurements should be numerical values (empty for missing values); 
 * For details and screenshot instructions, [click here](http://www.metaboanalyst.ca/faces/docs/Format.xhtml)
 
-* [CBW_NMR_result.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_NMR_result.csv) (Bayesil output - need to remove annotations lines starting with #, keep one type of ID - name/HMDB ID)
-* [CBW_GCMS_examples_cleaned_2015.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_GCMS_examples_cleaned_2015.csv) (Auto-GCMS output - need to remove <LOD and NA values ) 
-* [FAAH_cleaned_metaboanalyst.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/FAAH_cleaned_metaboanalyst.csv) (peak intensity table from XCMSonline - small LC-MS data)
-* [XCMS_cleaned_metaboanalyst.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/XCMS_cleaned_metaboanalyst.csv) (peak intensity table from XCMSonline - big LC-MS data)
+* [NMR results](https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_result.zip) (Bayesil output - need to remove annotations lines starting with #, keep one type of ID - name/HMDB ID)
+* [GCMS results]([Results file](https://drive.google.com/open?id=0B8AGit-0Ovvcd0FJZHNiSndQTk0)  ) (Auto-GCMS output - need to remove <LOD and NA values) 
+* [Cleaned Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
+
+For extra fun:
+
+* [Normalized Results](https://drive.google.com/open?id=0B8AGit-0OvvcNlRNWWhYYkJOQzg)  
+* [Unnormalized Results](https://drive.google.com/open?id=0B8AGit-0OvvcMWJkbUg0a25kamc) 
 
   
   ##  Module 6: Future of Metabolomics 
