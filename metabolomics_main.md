@@ -196,8 +196,8 @@ For extra fun:
   
   [Lecture](https://bioinformatics.ca/metab-2017-mod6)
   
+***
 
-
-
+Thank you for attending the Informatics and Statistics for Metabolomics workshop! Help us make this workshop better by filling out [our survey](https://goo.gl/forms/XVZZNmcCXhMKPXKU2).
 
 ***
