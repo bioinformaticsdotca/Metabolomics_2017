@@ -181,7 +181,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 * For details and screenshot instructions, [click here](http://www.metaboanalyst.ca/faces/docs/Format.xhtml)
 
 * You may have downloaded the NMR results .zip folder yesterday. You will need the .csv file from the .zip folder. [NMR results.zip](https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_result.zip) (Bayesil output - need to remove annotations lines starting with #, keep one type of ID - name/HMDB ID)
-* [GCMS results]([Results file](https://drive.google.com/open?id=0B8AGit-0Ovvcd0FJZHNiSndQTk0)  ) (Auto-GCMS output - need to remove <LOD and NA values) 
+* [GCMS results](https://raw.githubusercontent.com/bioinformaticsdotca/Metabolomics_2017/master/CBW_GCMS_examples_clean_2017.csv) (Auto-GCMS output - need to remove LOD and NA values) 
 * [Cleaned Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
 
 For extra fun:
