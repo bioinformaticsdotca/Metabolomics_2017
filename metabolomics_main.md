@@ -17,6 +17,10 @@ Pre-readings, pre-work, and laptop setup instructions can be found [here](https:
 
 If you have questions or comments, visit the workshop [Q&A forum](https://noteapp.com/Metab2017).
 
+# Class photo
+
+<img src="https://github.com/bioinformaticsdotca/Metabolomics_2017/blob/master/CBW-July-6.jpeg?raw=true" alt="img" width="750" />
+
 ***
 # Day 0  
 
