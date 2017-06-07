@@ -182,13 +182,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 * You may have downloaded the NMR results .zip folder yesterday. You will need the .csv file from the .zip folder. [NMR results.zip](https://github.com/bioinformaticsdotca/Metabolomics_2017/raw/master/CBW_NMR_result.zip) (Bayesil output - need to remove annotations lines starting with #, keep one type of ID - name/HMDB ID)
 * [Cleaned GCMS results](https://raw.githubusercontent.com/bioinformaticsdotca/Metabolomics_2017/master/CBW_GCMS_examples_clean_2017.csv) (Auto-GCMS output that has been cleaned for you) 
-* [Cleaned Diffreport](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
+* [Normalized LCMS csv](https://drive.google.com/open?id=0B8AGit-0OvvcM1pPXzhzaXYwNWM)  
+* [Unnormalized LCMS csv](https://raw.githubusercontent.com/bioinformaticsdotca/Metabolomics_2017/master/unnormalised_LCMS.csv)  
 
-For extra fun:
-
-* [Normalized XCMS Results](https://drive.google.com/open?id=0B8AGit-0OvvcNlRNWWhYYkJOQzg)  
-* [Unnormalized XCMS Results](https://drive.google.com/open?id=0B8AGit-0OvvcMWJkbUg0a25kamc) 
-* [Unnormalized LCMS results](https://raw.githubusercontent.com/bioinformaticsdotca/Metabolomics_2017/master/unnormalised_LCMS.csv)  
 
   
   ##  Module 6: Future of Metabolomics 
