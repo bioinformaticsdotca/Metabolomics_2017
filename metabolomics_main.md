@@ -26,7 +26,7 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">Jeff Xia</font>*  
 
-[R Review Session](https://bioinformatics.ca/metab-2017-rreview)  
+[R Review Session](https://drive.google.com/a/bioinformatics.ca/file/d/1U3FyxIul1xyRCPpzfas5f_4QPh3R450H/view?usp=sharing)  
 [Code for Session](https://raw.githubusercontent.com/bioinformaticsdotca/Metabolomics_2017/master/Metabolomics_2017_R_codes.txt)  
 
 # Day 1 <a id="day1"></a>
@@ -35,21 +35,23 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
   *<font color="#827e9c">Ann Meyer</font>* 
 
-[Lecture](https://bioinformatics.ca/metab-2017-mod0)
-
 ##  Module 1: Introduction to Metabolomics 
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/metab-2017-mod1)  
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1Ab4fCIhWVnTXIoIF9GpA6OjdmzZ1sILI/view?usp=sharing)  
+  
+  [Recording](https://youtu.be/4UN4w7i0Y2M)  
 
 ##  Module 2: Metabolite Identification and Annotation 
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/metab-2017-mod2)  
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1QkxZaPxZZJrpcgQEqy_gscFruzAcf9M2/view?usp=sharing)  
   
-  [Lab practical](https://bioinformatics.ca/metab-2017-mod2-lab)   
+  [Recording](https://youtu.be/Wf7la6To9x4)  
+  
+  [Lab practical](https://drive.google.com/a/bioinformatics.ca/file/d/1hN2ZYtPNlIuYvUBWcoAezDTu4pd8_5CK/view?usp=sharing)   
   
   [Instructions for lab](https://bioinformaticsdotca.github.io/metabolomics_2017_mod2lab)
   
@@ -133,7 +135,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
 *<font color="#827e9c">David Wishart</font>*  
 
-[Lecture](https://bioinformatics.ca/metab-2017-mod3)  
+[Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1c0-16IMkMjuJzAyL4KT3hYbcy4F4OqXb/view?usp=sharing)  
+
+[Recording](https://youtu.be/pdwthoeavQI)  
 
 #### Links:
   
@@ -161,18 +165,20 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
   *<font color="#827e9c">Jeff Xia</font>*
   
-  [Lecture](https://bioinformatics.ca/metab-2017-mod4)
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1BoTLNA5tdHZ2uDJfxWg1KWcIbROFtIez/view?usp=sharing)  
   
-  [Lab practical](http://bioinformatics-ca.github.io/epigenomic_data_analysis_module3_lab_2016/)
-
+  [Recording](https://youtu.be/x4GeKCBRVa4)
+  
 
 ##  Module 5: MetaboAnalyst 
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/metab-2017-mod5)
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1HmATpt0ZX6df3Kv1AuWxTUny3-xsrYWJ/view?usp=sharing)  
   
-  [Lab practical](https://bioinformatics.ca/metab-2017-mod5-lab)  
+  [Recording](https://youtu.be/HNzAe_SDYv0)
+  
+  [Lab practical](https://drive.google.com/a/bioinformatics.ca/file/d/10-BbVnIljxwpSmkNtnuaiyWHs2ECV3y2/view?usp=sharing)  
   
     
 #### Data Input:
@@ -195,7 +201,9 @@ If you have questions or comments, visit the workshop [Q&A forum](https://noteap
 
   *<font color="#827e9c">David Wishart</font>*
   
-  [Lecture](https://bioinformatics.ca/metab-2017-mod6)
+  [Lecture](https://drive.google.com/a/bioinformatics.ca/file/d/1DVFvgqOsealoALCqjfXGxnH5BC-FOISs/view?usp=sharing)  
+  
+  [Recording](https://youtu.be/UTB_u62u4Fw)  
   
 ***
 
