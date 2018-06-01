@@ -5,6 +5,9 @@ title: Metabolomics
 header1: Workshop Pages for Students
 header2: Informatics and Statistics for Metabolomics 2017
 image: /site_images/CBW_metabolomics_icon.jpg
+keywords: design metabolome-focused experments, analyzing metabolomic data, visualize data sets to grain intuitive insights 
+instructors: David Wishart, Jianguo Xia
+length: 2 days
 ---
 
 # Welcome <a id="welcome"></a>
