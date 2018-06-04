@@ -6,6 +6,9 @@ header1: Workshop Pages for Students
 header2: Informatics and Statistics for Metabolomics 2017 Module 2 Lab
 image: /site_images/CBW_metabolomics_icon.jpg
 home: https://bioinformaticsdotca.github.io/metabolomics_2017
+description: Metabolite Identification and Annotation
+author: David Wishart and Jeff Xia
+modified: June 6th 2017
 ---
 
 # Module 2 Lab: Metabolite Identification and Annotation
